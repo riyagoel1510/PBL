@@ -1,0 +1,37 @@
+.faq {
+  background-color: #f0f8ff; /* Light blue background color */
+  padding: 20px;
+}
+
+.faq h1 {
+  margin-bottom: 20px;
+}
+
+.white-box {
+  background-color: rgba(255, 255, 255, 0.5); /* White box with 50% transparency */
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin to create space between white boxes */
+  width: 80%;
+  margin: 0 auto; /* Center the white boxes */
+}
+
+.white-box h3 {
+  font-weight: bold;
+}
+
+.white-box p {
+  text-indent: 20px;
+}
+
+/* Responsive CSS */
+@media only screen and (max-width: 768px) {
+  .white-box {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .white-box {
+    width: 95%; /* Further adjust width for even smaller screens */
+  }
+}

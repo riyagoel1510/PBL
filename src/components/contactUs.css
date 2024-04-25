@@ -1,0 +1,52 @@
+.contact-us {
+  background-color: #f0f8ff; /* Light blue background color */
+  padding: 20px;
+  position: relative; /* Added for positioning the images */
+}
+
+.contact-us h1 {
+  margin-bottom: 20px;
+  position: relative; /* Added for positioning the images */
+}
+
+.white-box {
+  background-color: rgba(255, 255, 255, 0.5); /* White box with 50% transparency */
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin to create space between white boxes */
+  width: 90%;
+  margin: 0 auto; /* Center the white boxes */
+}
+
+.white-box h3 {
+  font-weight: bold;
+}
+
+.white-box p {
+  text-indent: 20px;
+}
+
+/* Style for images */
+.contact-us img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 24px; /* Adjust height to match the heading */
+  width: auto;
+}
+
+/* Adjust position of phone image */
+.contact-us img:first-child {
+  right: 10px;
+}
+
+/* Adjust position of mail image */
+.contact-us img:last-child {
+  right: 40px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .contact-us img {
+    display: none; /* Hide images on smaller screens */
+  }
+}
