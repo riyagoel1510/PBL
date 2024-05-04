@@ -6,7 +6,7 @@ const FillingComplaint = () => {
   return (
     <div className="filling-complaint">
       <h1>Filling a Complaint</h1>
-      <div className="white-box">
+      <div className="white-box1">
         <h3>Terms and Conditions</h3>
         <p>
           The information I've provided on this form is correct to the best of my knowledge. I acknowledge that providing false information could make me liable to penal actions under Indian Laws.

@@ -1,52 +1,40 @@
+/* contactUs.css */
 .contact-us {
   background-color: #f0f8ff; /* Light blue background color */
   padding: 20px;
-  position: relative; /* Added for positioning the images */
 }
 
 .contact-us h1 {
   margin-bottom: 20px;
-  position: relative; /* Added for positioning the images */
 }
 
-.white-box {
-  background-color: rgba(255, 255, 255, 0.5); /* White box with 50% transparency */
+.contact-box {
+  background-color: rgba(255, 255, 255, 0.9); /* Contact box with 80% transparency */
   padding: 20px;
-  margin-bottom: 20px; /* Add margin to create space between white boxes */
-  width: 90%;
-  margin: 0 auto; /* Center the white boxes */
+  margin-bottom: 20px; /* Add margin to create space between boxes */
 }
 
-.white-box h3 {
+.contact-box h3 {
   font-weight: bold;
 }
 
-.white-box p {
+.contact-box p {
   text-indent: 20px;
 }
 
 /* Style for images */
 .contact-us img {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 24px; /* Adjust height to match the heading */
-  width: auto;
+  height: 24px; /* Maintain original height */
+  width: auto; /* Maintain aspect ratio */
 }
 
-/* Adjust position of phone image */
-.contact-us img:first-child {
-  right: 10px;
+/* Position phone image */
+.contact-us img.phone {
+  float: right; /* Align phone image to the right */
+  margin-left: 10px; /* Add margin between phone and mail images */
 }
 
-/* Adjust position of mail image */
-.contact-us img:last-child {
-  right: 40px;
-}
-
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-  .contact-us img {
-    display: none; /* Hide images on smaller screens */
-  }
+/* Position mail image */
+.contact-us img.mail {
+  float: right; /* Align mail image to the right */
 }

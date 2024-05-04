@@ -8,18 +8,18 @@
   margin-bottom: 20px;
 }
 
-.white-box {
-  background-color: rgba(255, 255, 255, 0.5); /* White box with 50% transparency */
+.white-box1 {
+  background-color: rgba(255, 255, 255, 0.9); /* White box with 50% transparency */
   padding: 20px;
   width: 80%;
   margin: 0 auto; /* Center the white box */
 }
 
-.white-box h3 {
+.white-box1 h3 {
   font-weight: bold;
 }
 
-.white-box p {
+.white-box1 p {
   text-indent: 20px;
 }
 
@@ -44,7 +44,7 @@
 
 /* Responsive Styling */
 @media only screen and (max-width: 768px) {
-  .white-box {
+  .white-box1 {
     width: 90%; /* Adjust width for smaller screens */
   }
 }
